@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background-image: url(Baking-Wallpapers-4K-1920x1080-Wallperio.coma.jpg);
+  background-image: cover;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 35px;
+  padding: 20px;
+  background-color: #3b8ea5;
+  text-align: center;
+  color: white;
+  background: #2d728f;
+}
+.page-wrapper{
+  min-height:100%;
+}
+
+.page-wrapper a:hover {
+  color: #3b8ea5;
+}
+
+.dropdown {
+  background-color: #2d728f;
+  text-align: center;
+}
+
+.dropdown ul {
+  display: inline-flex;
+  font-size: 20px;
+  list-style: none;
+  color: #ffffff;
+}
+
+.dropdown ul li {
+  width: 75px;
+  margin: 15px;
+  padding: 15px;
+  color: white;
+}
+
+.dropdown ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown ul li:hover {
+  background-color: #3b8ea5;
+  border-radius: 10px;
+
+}
+
+.drop-menu-B {
+  display: none;
+}
+
+.dropdown ul li:hover .drop-menu-B {
+  display: block;
+  position: absolute;
+  background-color: #3b8ea5;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: -15px;
+}
+
+.dropdown ul li:hover .drop-menu-B ul {
+  display: block;
+  margin: 5px;
+}
+
+.dropdown ul li:hover .drop-menu-B ul li {
+  width: 150px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 0;
+  text-align: center;
+}
+
+.dropdown ul li:hover .drop-menu-B ul li:hover {
+  background-color: #2d728f;
+  border-radius: 5px;
+}
+
+.drop-menu-M {
+  display: none;
+  color: white;
+}
+
+.dropdown ul li:hover .drop-menu-M {
+  display: block;
+  position: absolute;
+  background-color: #3b8ea5;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.dropdown ul li:hover .drop-menu-M ul {
+  display: block;
+  margin: 5px;
+}
+
+.dropdown ul li:hover .drop-menu-M ul li {
+  width: 150px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 0;
+  text-align: center;
+}
+.dropdown ul li:hover .drop-menu-M ul li:hover {
+  background-color: #2d728f;
+  border-radius: 5px;
+}
+
+footer {
+  background: #2d728f;
+  color: white;
+  height: 400px;
+  position: relative;
+}
+
+footer .footer-media {
+  border: 1px solid red;
+  height: 350px;
+  display: flex;
+
+}
+
+footer .footer-media .footer-section {
+  flex: 1;
+  border: 1px solid white;
+}
+
+
+footer .footer-copyright {
+  background: #2a6680;
+  color: white;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
