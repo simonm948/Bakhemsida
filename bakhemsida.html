@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bakhemsida</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styling.css" />
   </head>
   <body>
+
     <header>
-      <h1>Bakhemsida</h1>
+      <h1><a href="bakhemsida.html">Bakhemsida</a></h1>
     </header>
     <nav>
       <div class="dropdown">
@@ -17,10 +20,10 @@
             <a href="#">Bakelser</a>
             <div class="drop-menu-B">
               <ul>
-                <li><a href="#">Äppelpaj</a></li>
-                <li><a href="#">Havrebollar</a></li>
-                <li><a href="#">Kanelbullar</a></li>
-                <li><a href="#">Morotskaka</a></li>
+                <li><a href="Appelpaj.html">Äppelpaj</a></li>
+                <li><a href="Havrebollar.html">Havrebollar</a></li>
+                <li><a href="Kanelbullar.html">Kanelbullar</a></li>
+                <li><a href="Morotskaka.html">Morotskaka</a></li>
               </ul>
             </div>
           </li>
@@ -34,20 +37,66 @@
               </ul>
             </div>
           </li>
-          <li><a href="#">Om oss</a></li>
-          <li><a href="#">Kontakta oss</a></li>
+          <li><a href="#footer">Om oss</a></li>
+          <li><a href="#footer">Kontakta oss</a></li>
         </ul>
       </div>
     </nav>
-    <div class="page-wrapper"></div>
-    <footer>
-      <div class="footer-media">
-        <div class="footer-section omhemsidan"></div>
-        <div class="footer-section links"></div>
-        <div class="footer-section contactform"></div>
+        <div class="hero">
+        
+        </div>
+    <div class="page-wrapper">
+      <div class="banner-title">
+        <h1></h1>
       </div>
-
-      <div class="footer-copyright"><p>&copy; Simon Mahari | TE19C</p></div>
+    </div>
+    <article id="footer">
+    <footer>
+      <div class="footer-content">
+        <div class="links box">
+          <h2>Länkar</h2>
+          <div class="content">
+            <div class="mail">
+              <span class="text">+46 3-4567 89 01</span>
+              <div class="mail">
+                <span class="text">bak@hemsida.com</span>
+              </div>
+            </div>
+            <div class="social">
+              <ul>
+                <li><a href="http://www.faceboook.com"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+         </div>
+         <div class="aboutus box">
+           <h2>Bakhemsida</h2>
+           <div class="content">
+             <p>Bakhemsidan är den perfekta hemsidan för dig som vill finna ett snabbt och enkelt gourmet recept på dina favorit rätter. Med utbud på bakelser till mat och frukost till lunch!</p>
+           </div>
+         </div>
+         <div class="contact box">
+          <h2>Kontakta oss</h2>
+          <div class="content">
+            <form action="bakhemsida.html" method="post">
+              <div class="email"><div class="text"><input type="email" name="email" class="text-input" placeholder="E-mail" required></div></div>
+              <div class="msg"><div class="text"><textarea rows="2" cols="25" name="message" class="text-input" placeholder="Meddelande" required></textarea></div></div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+         </div>
+        </div>
+        <div class="copyright">
+          <center>
+            <span class="credit">Simon Mahari | TE19C</span>
+          </center>
+        </div>
     </footer>
+    </article>
   </body>
 </html>

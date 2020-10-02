@@ -1,24 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-* {
-
+*{
+  box-sizing: border-box;
 }
+
 
 html,body {
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   font-family: 'Josefin Sans', sans-serif;
-}
-
-.hero {
-  height: 110%;
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Baking-Wallpapers-4K-1920x1080-Wallperio.coma.jpg);
-  background-size: cover;
-  background-position: center;
-  box-sizing: border-box;
 }
 
 
@@ -32,6 +26,11 @@ header {
   text-align: center;
   color: white;
   background: #2d728f;
+  margin-bottom: 10px;
+}
+
+h2 a {
+  vertical-align: center;
 }
 
 h1 a{
@@ -56,7 +55,10 @@ h1 a:::after:hover{
 
 
 .page-wrapper {
-  min.height: 110%;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  min.height: 100%;
   min-width: 100%;
 }
 
@@ -116,7 +118,7 @@ h1 a:::after:hover{
 
 .dropdown ul li:hover .drop-menu-B ul {
   display: block;
-  margin: 5px;
+  margin: 15px;
 }
 
 .dropdown ul li:hover .drop-menu-B ul li {
@@ -142,7 +144,6 @@ h1 a:::after:hover{
 
 .dropdown ul li:hover .drop-menu-M {
   display: block;
-  align-items: center;
   position: absolute;
   text-align: center;
   background-color: #3b8ea5;
@@ -169,6 +170,20 @@ h1 a:::after:hover{
   background-color: #2d728f;
   border-radius: 5px;
 }
+
+article .rubrik {
+  color: #3b8ea5;
+  font-size: 3rem;
+  text-align: center;
+}
+ article td {
+   font-size: 1.125rem;
+ }
+
+ article .bilder {
+   display: flex;
+   flex-direction: column;
+ }
 
 footer {
   position: relative;
@@ -207,7 +222,7 @@ footer {
 }
 
 .links .content .social {
-  margin: 20 0 0 0;
+  margin-left: -50px;
 }
 .links .content .social ul{
   display: flex;
